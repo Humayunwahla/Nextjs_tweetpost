@@ -1,9 +1,9 @@
-
+import '../(site)/globals.css'
 
 import Link from 'next/link'
 
 import { ChevronLeftIcon } from '@heroicons/react/24/outline'
-import Provider from 'app/provider'
+import Provider from 'app/(site)/provider'
 
 export default function AuthLayout({ children }) {
   return (
